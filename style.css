@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "SF Pro";
+    src: url("fonts/SFPRODISPLAYMEDIUM.woff2") format("woff2"),
+         url("fonts/SFPRODISPLAYMEDIUM.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "SF Pro", -apple-system, BlinkMacSystemFont, "Helvetica Neue";
+}
+
+body {
+    font-family: "SF Pro";
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
