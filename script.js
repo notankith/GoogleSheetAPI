@@ -2,7 +2,7 @@ const webAppUrl = "https://script.google.com/macros/s/AKfycbzAAcr3je7gjzMIaJYDtL
 const sheetName = new URLSearchParams(window.location.search).get("sheetName");
 
 if (!sheetName) {
-    document.getElementById("message").innerText = "No supplier sheet specified.";
+    document.getElementById("message").innerText = "No SheetID defined at the end of the url :(";
 } else {
     loadPayments();
 }
